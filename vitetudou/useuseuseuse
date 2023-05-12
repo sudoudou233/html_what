@@ -1,6 +1,20 @@
 todo:
 
+    js:
     addEventListener（事件，执行） 事件监视器
     querySelector /All  查询选择
     aysnc 异步运行
     defer 顺序运行
+
+    vue:
+        date (){} 
+        methods :{}
+        mounted(){}
+    vuetify:
+
+    html: 
+        image   图片
+        button  按钮
+        date  时间
+
+    css:

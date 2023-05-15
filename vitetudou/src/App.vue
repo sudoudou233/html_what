@@ -1,30 +1,28 @@
 <script setup>
-  //import HelloWorld from './components/HelloWorld.vue'
-  import HitButton from './components/item/buttons/HitsButton.vue'
+//import HelloWorld from './components/HelloWorld.vue'
+import Button from './components/item/buttons/button.vue'
 </script>
 
 <template>
-
   <div>
-    <a href="www.baidu.com" target="_blank">
-      <HitButton/>
-    </a>
-  </div>
-  <!--
+  <a>
+    <Button/>
+  </a>
+</div>
+<!--
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
     <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Tudou + Plum" /> 
-  -->
-
+        <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+      </a>
+    </div>
+    <HelloWorld msg="Tudou + Plum" /> 
+    -->
 </template>
 
-<!--
+<!-- 
 <style scoped>
 .logo {
   height: 6em;

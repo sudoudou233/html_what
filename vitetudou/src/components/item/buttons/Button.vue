@@ -21,3 +21,24 @@ export default {
 </template>
 
 -->
+
+<script setup>
+import HitButton from './HitsButton.vue'
+import TimeButton from './TimeButton.vue'
+</script>
+
+<template>
+    <ul>
+        <li>
+            <HitButton />
+        </li>
+        <li>
+            <TimeButton />
+    </li>
+</ul></template>
+
+
+
+
+
+
